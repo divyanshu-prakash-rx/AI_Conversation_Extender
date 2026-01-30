@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversation Master</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>💬AI Conversation Extender</h1>
+      <p class="subtitle">Talk Long with AI</p>
+    </header>
+    
+    <div class="status" id="status">
+      <span class="status-dot"></span>
+      <span id="status-text">Ready to extract</span>
+    </div>
+    
+    <div class="actions">
+      <button id="extractBtn" class="btn primary">
+        <span class="icon">📥</span>
+        Extract Conversation
+      </button>
+      
+      <button id="downloadBtn" class="btn secondary" disabled>
+        <span class="icon">💾</span>
+        Download as TXT
+      </button>
+      
+      <button id="copyBtn" class="btn secondary" disabled>
+        <span class="icon">📋</span>
+        Copy to Clipboard
+      </button>
+    </div>
+    
+    <div class="preview-container" id="previewContainer" style="display: none;">
+      <h3>Preview</h3>
+      <div class="preview" id="preview"></div>
+      <p class="message-count" id="messageCount"></p>
+    </div>
+    
+    <footer>
+      <p>Works with ChatGPT, Claude, Gemini, Copilot & more</p>
+      <p class="copyright">© 2026 <a href="https://github.com/divyanshu-prakash-rx" target="_blank">Divyanshu Prakash</a></p>
+    </footer>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

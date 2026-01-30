@@ -1,0 +1,2 @@
+#  AI Conversation Extender
+This is Browser Extension for AI Conversation Management. Which when invoked will scrape all the conversations from the current webpage and provide them in a txt file which can be downloaded for future reference and can be used on a new chat session to provide context to the AI about previous conversations.

@@ -1,0 +1,33 @@
+/* Content styles for Conversation Master */
+/* These styles are injected into AI chat pages */
+
+.conversation-master-highlight {
+  outline: 2px solid #667eea !important;
+  outline-offset: 2px;
+}
+
+.conversation-master-toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  z-index: 999999;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
