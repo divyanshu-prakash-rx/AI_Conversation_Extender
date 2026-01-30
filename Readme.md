@@ -1,7 +1,6 @@
 # AI Conversation Extender
 
-A Chrome extension to extract and export conversations from AI chat platforms.
-
+This is a Chrome Extension for AI Conversation Management, extract and export conversations from AI chat platforms in a txt file which can be downloaded for future reference and can be used on a new chat session to provide context to the AI about previous conversations.
 
 <img width="364" height="658" alt="image" src="https://github.com/user-attachments/assets/d56d7b62-9895-4c49-91fd-7b69a3ccc29b" />
 
