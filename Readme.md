@@ -2,6 +2,13 @@
 
 A Chrome extension to extract and export conversations from AI chat platforms.
 
+
+<img width="364" height="658" alt="image" src="https://github.com/user-attachments/assets/d56d7b62-9895-4c49-91fd-7b69a3ccc29b" />
+
+
+
+
+
 ## Features
 
 - Extract conversations with one click
